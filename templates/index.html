@@ -1,14 +1,14 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <form action="index.html" method="post">
+    <form action="/calculate" method="POST">
         <input name="num1" type="number">
         <input name="num2" type="number">
-        <button name="operation" value="divide">divide</button>
-        <button name="operation" value="multiply">multiply</button>
-        <button name="operation" value="add">add</button>
-        <button name="operation" value="subtract">subtract</button>
-        <button type="submit">submit</button>
+        <input name="operation" type="button" value="add" placeholder="addition">
+        <input name="operation" type="button" value="multiply" placeholder="addition">
+        <input name="operation" type="button" value="divide" placeholder="addition">
+        <input name="operation" type="button" value="subtract" placeholder="addition">
+        <button type="submit" >equals</button>
     </form>
     the result is: {{ result }}
 {% endblock %}
