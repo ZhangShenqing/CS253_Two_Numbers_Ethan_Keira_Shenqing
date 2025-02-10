@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color:#A8A99E;
+}
+
+.container {
+    width: 75%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    background: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #A9A89F;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
