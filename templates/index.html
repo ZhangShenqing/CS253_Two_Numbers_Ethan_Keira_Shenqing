@@ -4,10 +4,10 @@
     <form action="/calculate" method="POST">
         <input name="num1" type="number">
         <input name="num2" type="number">
-        <input name="operation" type="button" value="add" placeholder="addition">
-        <input name="operation" type="button" value="multiply" placeholder="addition">
-        <input name="operation" type="button" value="divide" placeholder="addition">
-        <input name="operation" type="button" value="subtract" placeholder="addition">
+        <input name="operation" type="radio" value="add">+</label>
+        <input name="operation" type="radio" value="multiply">*</label>
+        <input name="operation" type="radio" value="divide">÷</label>
+        <input name="operation" type="radio" value="subtract">-</label>
         <button type="submit" >equals</button>
     </form>
     the result is: {{ result }}
