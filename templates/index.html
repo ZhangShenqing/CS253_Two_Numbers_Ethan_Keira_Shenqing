@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <form action="index.html" method="post">
+        <input name="num1" type="number">
+        <input name="num2" type="number">
+        <button name="operation" value="divide">divide</button>
+        <button name="operation" value="multiply">multiply</button>
+        <button name="operation" value="add">add</button>
+        <button name="operation" value="subtract">subtract</button>
+        <button type="submit">submit</button>
+    </form>
+    the result is: {{ result }}
+{% endblock %}
